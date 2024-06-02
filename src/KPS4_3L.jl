@@ -33,16 +33,18 @@ Scientific background: http://arxiv.org/abs/1406.6218 =#
 
 # Array of connections of bridlepoints.
 # First point, second point, unstressed length.
-const SPRINGS_INPUT_3L = [0.    1.  150.
-                       1.    2.   -1. # s1, p7, p8
-                       4.    2.   -1. # s2, p10, p8                        
-                       4.    5.   -1. # s3, p10, p11
-                       3.    4.   -1. # s4, p9, p10
-                       5.    1.   -1. # s5, p11, p7
-                       4.    1.   -1. # s6, p10, p7
-                       3.    5.   -1. # s7, p9, p11
-                       5.    2.   -1. # s8, p11, p8
-                       2.    3.   -1.] # s9, p8, p9
+const SPRINGS_INPUT_3L = [0.    1.  150. # ground, s1
+                        1.      2.  150.
+                        2.      3.  150.
+                        1.    2.   -1. # s1, p7, p8
+                        4.    2.   -1. # s2, p10, p8                        
+                        4.    5.   -1. # s3, p10, p11
+                        3.    4.   -1. # s4, p9, p10
+                        5.    1.   -1. # s5, p11, p7
+                        4.    1.   -1. # s6, p10, p7
+                        3.    5.   -1. # s7, p9, p11
+                        5.    2.   -1. # s8, p11, p8
+                        2.    3.   -1.] # s9, p8, p9
 
 
 const KITE_SPRINGS_3L = 9
